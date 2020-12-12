@@ -1,0 +1,1169 @@
+﻿<Window x:Class="Game_Scrabble.BoardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Game_Scrabble"
+        mc:Ignorable="d"
+        Title="Scrabble" Height="900" Width="1050" Loaded="Window_Loaded">
+    <Window.Background>
+        <ImageBrush ImageSource="/Resources/pool_table.png"/>
+    </Window.Background>
+    <Grid x:Name="windowGrid">
+        <Grid x:Name="gameGrid" Height="675" Width="675" VerticalAlignment="Center" Margin="0,0,100,0">
+            <Grid.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="Background" Value="Transparent" />
+                    <Setter Property="BorderBrush" Value="Black" />
+                    <Setter Property="BorderThickness" Value="1" />
+                    <Setter Property="CornerRadius" Value="0" />
+                </Style>
+            </Grid.Resources>
+            <Grid.Background>
+                <ImageBrush ImageSource="/Resources/purty_wood.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <!-- Triple Word Spaces -->
+            <Border x:Name="spaceBorder0" Grid.Row="0" Grid.Column="0" Background="Red">
+                <Grid x:Name="spaceGrid0">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder7" Grid.Row="0" Grid.Column="7" Background="Red">
+                <Grid x:Name="spaceGrid7">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder14" Grid.Row="0" Grid.Column="14" Background="Red">
+                <Grid x:Name="spaceGrid14">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder105" Grid.Row="7" Grid.Column="0" Background="Red">
+                <Grid x:Name="spaceGrid105">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder119" Grid.Row="7" Grid.Column="14" Background="Red">
+                <Grid x:Name="spaceGrid119">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder210" Grid.Row="14" Grid.Column="0" Background="Red">
+                <Grid x:Name="spaceGrid210">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder217" Grid.Row="14" Grid.Column="7" Background="Red">
+                <Grid x:Name="spaceGrid217">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder224" Grid.Row="14" Grid.Column="14" Background="Red">
+                <Grid x:Name="spaceGrid224">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Word</TextBlock>
+                </Grid>
+            </Border>
+            <!-- Double Word Spaces -->
+            <Border x:Name="spaceBorder16" Grid.Row="1" Grid.Column="1" Background="HotPink">
+                <Grid x:Name="spaceGrid16">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder28" Grid.Row="1" Grid.Column="13" Background="HotPink">
+                <Grid x:Name="spaceGrid28">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder32" Grid.Row="2" Grid.Column="2" Background="HotPink">
+                <Grid x:Name="spaceGrid32">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder42" Grid.Row="2" Grid.Column="12" Background="HotPink">
+                <Grid x:Name="spaceGrid42">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder48" Grid.Row="3" Grid.Column="3" Background="HotPink">
+                <Grid x:Name="spaceGrid48">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder56" Grid.Row="3" Grid.Column="11" Background="HotPink">
+                <Grid x:Name="spaceGrid56">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder64" Grid.Row="4" Grid.Column="4" Background="HotPink">
+                <Grid x:Name="spaceGrid64">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder70" Grid.Row="4" Grid.Column="10" Background="HotPink">
+                <Grid x:Name="spaceGrid70">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder154" Grid.Row="10" Grid.Column="4" Background="HotPink">
+                <Grid x:Name="spaceGrid154">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder160" Grid.Row="10" Grid.Column="10" Background="HotPink">
+                <Grid x:Name="spaceGrid160">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder168" Grid.Row="11" Grid.Column="3" Background="HotPink">
+                <Grid x:Name="spaceGrid168">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder176" Grid.Row="11" Grid.Column="11" Background="HotPink">
+                <Grid x:Name="spaceGrid176">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder182" Grid.Row="12" Grid.Column="2" Background="HotPink">
+                <Grid x:Name="spaceGrid182">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder192" Grid.Row="12" Grid.Column="12" Background="HotPink">
+                <Grid x:Name="spaceGrid192">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder196" Grid.Row="13" Grid.Column="1" Background="HotPink">
+                <Grid x:Name="spaceGrid196">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder208" Grid.Row="13" Grid.Column="13" Background="HotPink">
+                <Grid x:Name="spaceGrid208">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder112" Grid.Row="7" Grid.Column="7" Background="HotPink">
+                <Grid x:Name="spaceGrid112">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Word</TextBlock>
+                </Grid>
+            </Border>
+            <!-- Triple Letter Spaces -->
+            <Border x:Name="spaceBorder20" Grid.Row="1" Grid.Column="5" Background="Blue">
+                <Grid x:Name="spaceGrid20">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder24" Grid.Row="1" Grid.Column="9" Background="Blue">
+                <Grid x:Name="spaceGrid24">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder76" Grid.Row="5" Grid.Column="1" Background="Blue">
+                <Grid x:Name="spaceGrid76">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder80" Grid.Row="5" Grid.Column="5" Background="Blue">
+                <Grid x:Name="spaceGrid80">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder84" Grid.Row="5" Grid.Column="9" Background="Blue">
+                <Grid x:Name="spaceGrid84">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder88" Grid.Row="5" Grid.Column="13" Background="Blue">
+                <Grid x:Name="spaceGrid88">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder136" Grid.Row="9" Grid.Column="1" Background="Blue">
+                <Grid x:Name="spaceGrid136">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder140" Grid.Row="9" Grid.Column="5" Background="Blue">
+                <Grid x:Name="spaceGrid140">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder144" Grid.Row="9" Grid.Column="9" Background="Blue">
+                <Grid x:Name="spaceGrid144">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder148" Grid.Row="9" Grid.Column="13" Background="Blue">
+                <Grid x:Name="spaceGrid148">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder200" Grid.Row="13" Grid.Column="5" Background="Blue">
+                <Grid x:Name="spaceGrid200">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder204" Grid.Row="13" Grid.Column="9" Background="Blue">
+                <Grid x:Name="spaceGrid204">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Triple Letter</TextBlock>
+                </Grid>
+            </Border>
+            <!-- Double Letter Spaces -->
+            <Border x:Name="spaceBorder3" Grid.Row="0" Grid.Column="3" Background="LightBlue">
+                <Grid x:Name="spaceGrid3">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder11" Grid.Row="0" Grid.Column="11" Background="LightBlue">
+                <Grid x:Name="spaceGrid11">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder36" Grid.Row="2" Grid.Column="6" Background="LightBlue">
+                <Grid x:Name="spaceGrid36">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder38" Grid.Row="2" Grid.Column="8" Background="LightBlue">
+                <Grid x:Name="spaceGrid38">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder45" Grid.Row="3" Grid.Column="0" Background="LightBlue">
+                <Grid x:Name="spaceGrid45">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder52" Grid.Row="3" Grid.Column="7" Background="LightBlue">
+                <Grid x:Name="spaceGrid52">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder59" Grid.Row="3" Grid.Column="14" Background="LightBlue">
+                <Grid x:Name="spaceGrid59">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder92" Grid.Row="6" Grid.Column="2" Background="LightBlue">
+                <Grid x:Name="spaceGrid92">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder96" Grid.Row="6" Grid.Column="6" Background="LightBlue">
+                <Grid x:Name="spaceGrid96">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder98" Grid.Row="6" Grid.Column="8" Background="LightBlue">
+                <Grid x:Name="spaceGrid98">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder102" Grid.Row="6" Grid.Column="12" Background="LightBlue">
+                <Grid x:Name="spaceGrid102">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder108" Grid.Row="7" Grid.Column="3" Background="LightBlue">
+                <Grid x:Name="spaceGrid108">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder116" Grid.Row="7" Grid.Column="11" Background="LightBlue">
+                <Grid x:Name="spaceGrid116">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder122" Grid.Row="8" Grid.Column="2" Background="LightBlue">
+                <Grid x:Name="spaceGrid122">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder126" Grid.Row="8" Grid.Column="6" Background="LightBlue">
+                <Grid x:Name="spaceGrid126">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder128" Grid.Row="8" Grid.Column="8" Background="LightBlue">
+                <Grid x:Name="spaceGrid128">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder132" Grid.Row="8" Grid.Column="12" Background="LightBlue">
+                <Grid x:Name="spaceGrid132">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder165" Grid.Row="11" Grid.Column="0" Background="LightBlue">
+                <Grid x:Name="spaceGrid165">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder172" Grid.Row="11" Grid.Column="7" Background="LightBlue">
+                <Grid x:Name="spaceGrid172">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder179" Grid.Row="11" Grid.Column="14" Background="LightBlue">
+                <Grid x:Name="spaceGrid179">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder186" Grid.Row="12" Grid.Column="6" Background="LightBlue">
+                <Grid x:Name="spaceGrid186">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder188" Grid.Row="12" Grid.Column="8" Background="LightBlue">
+                <Grid x:Name="spaceGrid188">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder213" Grid.Row="14" Grid.Column="3" Background="LightBlue">
+                <Grid x:Name="spaceGrid213">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <Border x:Name="spaceBorder221" Grid.Row="14" Grid.Column="11" Background="LightBlue">
+                <Grid x:Name="spaceGrid221">
+                    <TextBlock Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Double Letter</TextBlock>
+                </Grid>
+            </Border>
+            <!-- Blank Spaces -->
+            <Border x:Name="spaceBorder1" Grid.Row="0" Grid.Column="1">
+                <Grid x:Name="spaceGrid1"/>
+            </Border>
+            <Border x:Name="spaceBorder2" Grid.Row="0" Grid.Column="2">
+                <Grid x:Name="spaceGrid2"/>
+            </Border>
+            <Border x:Name="spaceBorder4" Grid.Row="0" Grid.Column="4">
+                <Grid x:Name="spaceGrid4"/>
+            </Border>
+            <Border x:Name="spaceBorder5" Grid.Row="0" Grid.Column="5">
+                <Grid x:Name="spaceGrid5"/>
+            </Border>
+            <Border x:Name="spaceBorder6" Grid.Row="0" Grid.Column="6">
+                <Grid x:Name="spaceGrid6"/>
+            </Border>
+            <Border x:Name="spaceBorder8" Grid.Row="0" Grid.Column="8">
+                <Grid x:Name="spaceGrid8"/>
+            </Border>
+            <Border x:Name="spaceBorder9" Grid.Row="0" Grid.Column="9">
+                <Grid x:Name="spaceGrid9"/>
+            </Border>
+            <Border x:Name="spaceBorder10" Grid.Row="0" Grid.Column="10">
+                <Grid x:Name="spaceGrid10"/>
+            </Border>
+            <Border x:Name="spaceBorder12" Grid.Row="0" Grid.Column="12">
+                <Grid x:Name="spaceGrid12"/>
+            </Border>
+            <Border x:Name="spaceBorder13" Grid.Row="0" Grid.Column="13">
+                <Grid x:Name="spaceGrid13"/>
+            </Border>
+            <Border x:Name="spaceBorder15" Grid.Row="1" Grid.Column="0">
+                <Grid x:Name="spaceGrid15"/>
+            </Border>
+            <Border x:Name="spaceBorder17" Grid.Row="1" Grid.Column="2">
+                <Grid x:Name="spaceGrid17"/>
+            </Border>
+            <Border x:Name="spaceBorder18" Grid.Row="1" Grid.Column="3">
+                <Grid x:Name="spaceGrid18"/>
+            </Border>
+            <Border x:Name="spaceBorder19" Grid.Row="1" Grid.Column="4">
+                <Grid x:Name="spaceGrid19"/>
+            </Border>
+            <Border x:Name="spaceBorder21" Grid.Row="1" Grid.Column="6">
+                <Grid x:Name="spaceGrid21"/>
+            </Border>
+            <Border x:Name="spaceBorder22" Grid.Row="1" Grid.Column="7">
+                <Grid x:Name="spaceGrid22"/>
+            </Border>
+            <Border x:Name="spaceBorder23" Grid.Row="1" Grid.Column="8">
+                <Grid x:Name="spaceGrid23"/>
+            </Border>
+            <Border x:Name="spaceBorder25" Grid.Row="1" Grid.Column="10">
+                <Grid x:Name="spaceGrid25"/>
+            </Border>
+            <Border x:Name="spaceBorder26" Grid.Row="1" Grid.Column="11">
+                <Grid x:Name="spaceGrid26"/>
+            </Border>
+            <Border x:Name="spaceBorder27" Grid.Row="1" Grid.Column="12">
+                <Grid x:Name="spaceGrid27"/>
+            </Border>
+            <Border x:Name="spaceBorder29" Grid.Row="1" Grid.Column="14">
+                <Grid x:Name="spaceGrid29"/>
+            </Border>
+            <Border x:Name="spaceBorder30" Grid.Row="2" Grid.Column="0">
+                <Grid x:Name="spaceGrid30"/>
+            </Border>
+            <Border x:Name="spaceBorder31" Grid.Row="2" Grid.Column="1">
+                <Grid x:Name="spaceGrid31"/>
+            </Border>
+            <Border x:Name="spaceBorder33" Grid.Row="2" Grid.Column="3">
+                <Grid x:Name="spaceGrid33"/>
+            </Border>
+            <Border x:Name="spaceBorder34" Grid.Row="2" Grid.Column="4">
+                <Grid x:Name="spaceGrid34"/>
+            </Border>
+            <Border x:Name="spaceBorder35" Grid.Row="2" Grid.Column="5">
+                <Grid x:Name="spaceGrid35"/>
+            </Border>
+            <Border x:Name="spaceBorder37" Grid.Row="2" Grid.Column="7">
+                <Grid x:Name="spaceGrid37"/>
+            </Border>
+            <Border x:Name="spaceBorder39" Grid.Row="2" Grid.Column="9">
+                <Grid x:Name="spaceGrid39"/>
+            </Border>
+            <Border x:Name="spaceBorder40" Grid.Row="2" Grid.Column="10">
+                <Grid x:Name="spaceGrid40"/>
+            </Border>
+            <Border x:Name="spaceBorder41" Grid.Row="2" Grid.Column="11">
+                <Grid x:Name="spaceGrid41"/>
+            </Border>
+            <Border x:Name="spaceBorder43" Grid.Row="2" Grid.Column="13">
+                <Grid x:Name="spaceGrid43"/>
+            </Border>
+            <Border x:Name="spaceBorder44" Grid.Row="2" Grid.Column="14">
+                <Grid x:Name="spaceGrid44"/>
+            </Border>
+            <Border x:Name="spaceBorder46" Grid.Row="3" Grid.Column="1">
+                <Grid x:Name="spaceGrid46"/>
+            </Border>
+            <Border x:Name="spaceBorder47" Grid.Row="3" Grid.Column="2">
+                <Grid x:Name="spaceGrid47"/>
+            </Border>
+            <Border x:Name="spaceBorder49" Grid.Row="3" Grid.Column="4">
+                <Grid x:Name="spaceGrid49"/>
+            </Border>
+            <Border x:Name="spaceBorder50" Grid.Row="3" Grid.Column="5">
+                <Grid x:Name="spaceGrid50"/>
+            </Border>
+            <Border x:Name="spaceBorder51" Grid.Row="3" Grid.Column="6">
+                <Grid x:Name="spaceGrid51"/>
+            </Border>
+            <Border x:Name="spaceBorder53" Grid.Row="3" Grid.Column="8">
+                <Grid x:Name="spaceGrid53"/>
+            </Border>
+            <Border x:Name="spaceBorder54" Grid.Row="3" Grid.Column="9">
+                <Grid x:Name="spaceGrid54"/>
+            </Border>
+            <Border x:Name="spaceBorder55" Grid.Row="3" Grid.Column="10">
+                <Grid x:Name="spaceGrid55"/>
+            </Border>
+            <Border x:Name="spaceBorder57" Grid.Row="3" Grid.Column="12">
+                <Grid x:Name="spaceGrid57"/>
+            </Border>
+            <Border x:Name="spaceBorder58" Grid.Row="3" Grid.Column="13">
+                <Grid x:Name="spaceGrid58"/>
+            </Border>
+            <Border x:Name="spaceBorder60" Grid.Row="4" Grid.Column="0">
+                <Grid x:Name="spaceGrid60"/>
+            </Border>
+            <Border x:Name="spaceBorder61" Grid.Row="4" Grid.Column="1">
+                <Grid x:Name="spaceGrid61"/>
+            </Border>
+            <Border x:Name="spaceBorder62" Grid.Row="4" Grid.Column="2">
+                <Grid x:Name="spaceGrid62"/>
+            </Border>
+            <Border x:Name="spaceBorder63" Grid.Row="4" Grid.Column="3">
+                <Grid x:Name="spaceGrid63"/>
+            </Border>
+            <Border x:Name="spaceBorder65" Grid.Row="4" Grid.Column="5">
+                <Grid x:Name="spaceGrid65"/>
+            </Border>
+            <Border x:Name="spaceBorder66" Grid.Row="4" Grid.Column="6">
+                <Grid x:Name="spaceGrid66"/>
+            </Border>
+            <Border x:Name="spaceBorder67" Grid.Row="4" Grid.Column="7">
+                <Grid x:Name="spaceGrid67"/>
+            </Border>
+            <Border x:Name="spaceBorder68" Grid.Row="4" Grid.Column="8">
+                <Grid x:Name="spaceGrid68"/>
+            </Border>
+            <Border x:Name="spaceBorder69" Grid.Row="4" Grid.Column="9">
+                <Grid x:Name="spaceGrid69"/>
+            </Border>
+            <Border x:Name="spaceBorder71" Grid.Row="4" Grid.Column="11">
+                <Grid x:Name="spaceGrid71"/>
+            </Border>
+            <Border x:Name="spaceBorder72" Grid.Row="4" Grid.Column="12">
+                <Grid x:Name="spaceGrid72"/>
+            </Border>
+            <Border x:Name="spaceBorder73" Grid.Row="4" Grid.Column="13">
+                <Grid x:Name="spaceGrid73"/>
+            </Border>
+            <Border x:Name="spaceBorder74" Grid.Row="4" Grid.Column="14">
+                <Grid x:Name="spaceGrid74"/>
+            </Border>
+            <Border x:Name="spaceBorder75" Grid.Row="5" Grid.Column="0">
+                <Grid x:Name="spaceGrid75"/>
+            </Border>
+            <Border x:Name="spaceBorder77" Grid.Row="5" Grid.Column="2">
+                <Grid x:Name="spaceGrid77"/>
+            </Border>
+            <Border x:Name="spaceBorder78" Grid.Row="5" Grid.Column="3">
+                <Grid x:Name="spaceGrid78"/>
+            </Border>
+            <Border x:Name="spaceBorder79" Grid.Row="5" Grid.Column="4">
+                <Grid x:Name="spaceGrid79"/>
+            </Border>
+            <Border x:Name="spaceBorder81" Grid.Row="5" Grid.Column="6">
+                <Grid x:Name="spaceGrid81"/>
+            </Border>
+            <Border x:Name="spaceBorder82" Grid.Row="5" Grid.Column="7">
+                <Grid x:Name="spaceGrid82"/>
+            </Border>
+            <Border x:Name="spaceBorder83" Grid.Row="5" Grid.Column="8">
+                <Grid x:Name="spaceGrid83"/>
+            </Border>
+            <Border x:Name="spaceBorder85" Grid.Row="5" Grid.Column="10">
+                <Grid x:Name="spaceGrid85"/>
+            </Border>
+            <Border x:Name="spaceBorder86" Grid.Row="5" Grid.Column="11">
+                <Grid x:Name="spaceGrid86"/>
+            </Border>
+            <Border x:Name="spaceBorder87" Grid.Row="5" Grid.Column="12">
+                <Grid x:Name="spaceGrid87"/>
+            </Border>
+            <Border x:Name="spaceBorder89" Grid.Row="5" Grid.Column="14">
+                <Grid x:Name="spaceGrid89"/>
+            </Border>
+            <Border x:Name="spaceBorder90" Grid.Row="6" Grid.Column="0">
+                <Grid x:Name="spaceGrid90"/>
+            </Border>
+            <Border x:Name="spaceBorder91" Grid.Row="6" Grid.Column="1">
+                <Grid x:Name="spaceGrid91"/>
+            </Border>
+            <Border x:Name="spaceBorder93" Grid.Row="6" Grid.Column="3">
+                <Grid x:Name="spaceGrid93"/>
+            </Border>
+            <Border x:Name="spaceBorder94" Grid.Row="6" Grid.Column="4">
+                <Grid x:Name="spaceGrid94"/>
+            </Border>
+            <Border x:Name="spaceBorder95" Grid.Row="6" Grid.Column="5">
+                <Grid x:Name="spaceGrid95"/>
+            </Border>
+            <Border x:Name="spaceBorder97" Grid.Row="6" Grid.Column="7">
+                <Grid x:Name="spaceGrid97"/>
+            </Border>
+            <Border x:Name="spaceBorder99" Grid.Row="6" Grid.Column="9">
+                <Grid x:Name="spaceGrid99"/>
+            </Border>
+            <Border x:Name="spaceBorder100" Grid.Row="6" Grid.Column="10">
+                <Grid x:Name="spaceGrid100"/>
+            </Border>
+            <Border x:Name="spaceBorder101" Grid.Row="6" Grid.Column="11">
+                <Grid x:Name="spaceGrid101"/>
+            </Border>
+            <Border x:Name="spaceBorder103" Grid.Row="6" Grid.Column="13">
+                <Grid x:Name="spaceGrid103"/>
+            </Border>
+            <Border x:Name="spaceBorder104" Grid.Row="6" Grid.Column="14">
+                <Grid x:Name="spaceGrid104"/>
+            </Border>
+            <Border x:Name="spaceBorder106" Grid.Row="7" Grid.Column="1">
+                <Grid x:Name="spaceGrid106"/>
+            </Border>
+            <Border x:Name="spaceBorder107" Grid.Row="7" Grid.Column="2">
+                <Grid x:Name="spaceGrid107"/>
+            </Border>
+            <Border x:Name="spaceBorder109" Grid.Row="7" Grid.Column="4">
+                <Grid x:Name="spaceGrid109"/>
+            </Border>
+            <Border x:Name="spaceBorder110" Grid.Row="7" Grid.Column="5">
+                <Grid x:Name="spaceGrid110"/>
+            </Border>
+            <Border x:Name="spaceBorder111" Grid.Row="7" Grid.Column="6">
+                <Grid x:Name="spaceGrid111"/>
+            </Border>
+            <Border x:Name="spaceBorder113" Grid.Row="7" Grid.Column="8">
+                <Grid x:Name="spaceGrid113"/>
+            </Border>
+            <Border x:Name="spaceBorder114" Grid.Row="7" Grid.Column="9">
+                <Grid x:Name="spaceGrid114"/>
+            </Border>
+            <Border x:Name="spaceBorder115" Grid.Row="7" Grid.Column="10">
+                <Grid x:Name="spaceGrid115"/>
+            </Border>
+            <Border x:Name="spaceBorder117" Grid.Row="7" Grid.Column="12">
+                <Grid x:Name="spaceGrid117"/>
+            </Border>
+            <Border x:Name="spaceBorder118" Grid.Row="7" Grid.Column="13">
+                <Grid x:Name="spaceGrid118"/>
+            </Border>
+            <Border x:Name="spaceBorder120" Grid.Row="8" Grid.Column="0">
+                <Grid x:Name="spaceGrid120"/>
+            </Border>
+            <Border x:Name="spaceBorder121" Grid.Row="8" Grid.Column="1">
+                <Grid x:Name="spaceGrid121"/>
+            </Border>
+            <Border x:Name="spaceBorder123" Grid.Row="8" Grid.Column="3">
+                <Grid x:Name="spaceGrid123"/>
+            </Border>
+            <Border x:Name="spaceBorder124" Grid.Row="8" Grid.Column="4">
+                <Grid x:Name="spaceGrid124"/>
+            </Border>
+            <Border x:Name="spaceBorder125" Grid.Row="8" Grid.Column="5">
+                <Grid x:Name="spaceGrid125"/>
+            </Border>
+            <Border x:Name="spaceBorder127" Grid.Row="8" Grid.Column="7">
+                <Grid x:Name="spaceGrid127"/>
+            </Border>
+            <Border x:Name="spaceBorder129" Grid.Row="8" Grid.Column="9">
+                <Grid x:Name="spaceGrid129"/>
+            </Border>
+            <Border x:Name="spaceBorder130" Grid.Row="8" Grid.Column="10">
+                <Grid x:Name="spaceGrid130"/>
+            </Border>
+            <Border x:Name="spaceBorder131" Grid.Row="8" Grid.Column="11">
+                <Grid x:Name="spaceGrid131"/>
+            </Border>
+            <Border x:Name="spaceBorder133" Grid.Row="8" Grid.Column="13">
+                <Grid x:Name="spaceGrid133"/>
+            </Border>
+            <Border x:Name="spaceBorder134" Grid.Row="8" Grid.Column="14">
+                <Grid x:Name="spaceGrid134"/>
+            </Border>
+            <Border x:Name="spaceBorder135" Grid.Row="9" Grid.Column="0">
+                <Grid x:Name="spaceGrid135"/>
+            </Border>
+            <Border x:Name="spaceBorder137" Grid.Row="9" Grid.Column="2">
+                <Grid x:Name="spaceGrid137"/>
+            </Border>
+            <Border x:Name="spaceBorder138" Grid.Row="9" Grid.Column="3">
+                <Grid x:Name="spaceGrid138"/>
+            </Border>
+            <Border x:Name="spaceBorder139" Grid.Row="9" Grid.Column="4">
+                <Grid x:Name="spaceGrid139"/>
+            </Border>
+            <Border x:Name="spaceBorder141" Grid.Row="9" Grid.Column="6">
+                <Grid x:Name="spaceGrid141"/>
+            </Border>
+            <Border x:Name="spaceBorder142" Grid.Row="9" Grid.Column="7">
+                <Grid x:Name="spaceGrid142"/>
+            </Border>
+            <Border x:Name="spaceBorder143" Grid.Row="9" Grid.Column="8">
+                <Grid x:Name="spaceGrid143"/>
+            </Border>
+            <Border x:Name="spaceBorder145" Grid.Row="9" Grid.Column="10">
+                <Grid x:Name="spaceGrid145"/>
+            </Border>
+            <Border x:Name="spaceBorder146" Grid.Row="9" Grid.Column="11">
+                <Grid x:Name="spaceGrid146"/>
+            </Border>
+            <Border x:Name="spaceBorder147" Grid.Row="9" Grid.Column="12">
+                <Grid x:Name="spaceGrid147"/>
+            </Border>
+            <Border x:Name="spaceBorder149" Grid.Row="9" Grid.Column="14">
+                <Grid x:Name="spaceGrid149"/>
+            </Border>
+            <Border x:Name="spaceBorder150" Grid.Row="10" Grid.Column="0">
+                <Grid x:Name="spaceGrid150"/>
+            </Border>
+            <Border x:Name="spaceBorder151" Grid.Row="10" Grid.Column="1">
+                <Grid x:Name="spaceGrid151"/>
+            </Border>
+            <Border x:Name="spaceBorder152" Grid.Row="10" Grid.Column="2">
+                <Grid x:Name="spaceGrid152"/>
+            </Border>
+            <Border x:Name="spaceBorder153" Grid.Row="10" Grid.Column="3">
+                <Grid x:Name="spaceGrid153"/>
+            </Border>
+            <Border x:Name="spaceBorder155" Grid.Row="10" Grid.Column="5">
+                <Grid x:Name="spaceGrid155"/>
+            </Border>
+            <Border x:Name="spaceBorder156" Grid.Row="10" Grid.Column="6">
+                <Grid x:Name="spaceGrid156"/>
+            </Border>
+            <Border x:Name="spaceBorder157" Grid.Row="10" Grid.Column="7">
+                <Grid x:Name="spaceGrid157"/>
+            </Border>
+            <Border x:Name="spaceBorder158" Grid.Row="10" Grid.Column="8">
+                <Grid x:Name="spaceGrid158"/>
+            </Border>
+            <Border x:Name="spaceBorder159" Grid.Row="10" Grid.Column="9">
+                <Grid x:Name="spaceGrid159"/>
+            </Border>
+            <Border x:Name="spaceBorder161" Grid.Row="10" Grid.Column="11">
+                <Grid x:Name="spaceGrid161"/>
+            </Border>
+            <Border x:Name="spaceBorder162" Grid.Row="10" Grid.Column="12">
+                <Grid x:Name="spaceGrid162"/>
+            </Border>
+            <Border x:Name="spaceBorder163" Grid.Row="10" Grid.Column="13">
+                <Grid x:Name="spaceGrid163"/>
+            </Border>
+            <Border x:Name="spaceBorder164" Grid.Row="10" Grid.Column="14">
+                <Grid x:Name="spaceGrid164"/>
+            </Border>
+            <Border x:Name="spaceBorder166" Grid.Row="11" Grid.Column="1">
+                <Grid x:Name="spaceGrid166"/>
+            </Border>
+            <Border x:Name="spaceBorder167" Grid.Row="11" Grid.Column="2">
+                <Grid x:Name="spaceGrid167"/>
+            </Border>
+            <Border x:Name="spaceBorder169" Grid.Row="11" Grid.Column="4">
+                <Grid x:Name="spaceGrid169"/>
+            </Border>
+            <Border x:Name="spaceBorder170" Grid.Row="11" Grid.Column="5">
+                <Grid x:Name="spaceGrid170"/>
+            </Border>
+            <Border x:Name="spaceBorder171" Grid.Row="11" Grid.Column="6">
+                <Grid x:Name="spaceGrid171"/>
+            </Border>
+            <Border x:Name="spaceBorder173" Grid.Row="11" Grid.Column="8">
+                <Grid x:Name="spaceGrid173"/>
+            </Border>
+            <Border x:Name="spaceBorder174" Grid.Row="11" Grid.Column="9">
+                <Grid x:Name="spaceGrid174"/>
+            </Border>
+            <Border x:Name="spaceBorder175" Grid.Row="11" Grid.Column="10">
+                <Grid x:Name="spaceGrid175"/>
+            </Border>
+            <Border x:Name="spaceBorder177" Grid.Row="11" Grid.Column="12">
+                <Grid x:Name="spaceGrid177"/>
+            </Border>
+            <Border x:Name="spaceBorder178" Grid.Row="11" Grid.Column="13">
+                <Grid x:Name="spaceGrid178"/>
+            </Border>
+            <Border x:Name="spaceBorder180" Grid.Row="12" Grid.Column="0">
+                <Grid x:Name="spaceGrid180"/>
+            </Border>
+            <Border x:Name="spaceBorder181" Grid.Row="12" Grid.Column="1">
+                <Grid x:Name="spaceGrid181"/>
+            </Border>
+            <Border x:Name="spaceBorder183" Grid.Row="12" Grid.Column="3">
+                <Grid x:Name="spaceGrid183"/>
+            </Border>
+            <Border x:Name="spaceBorder184" Grid.Row="12" Grid.Column="4">
+                <Grid x:Name="spaceGrid184"/>
+            </Border>
+            <Border x:Name="spaceBorder185" Grid.Row="12" Grid.Column="5">
+                <Grid x:Name="spaceGrid185"/>
+            </Border>
+            <Border x:Name="spaceBorder187" Grid.Row="12" Grid.Column="7">
+                <Grid x:Name="spaceGrid187"/>
+            </Border>
+            <Border x:Name="spaceBorder189" Grid.Row="12" Grid.Column="9">
+                <Grid x:Name="spaceGrid189"/>
+            </Border>
+            <Border x:Name="spaceBorder190" Grid.Row="12" Grid.Column="10">
+                <Grid x:Name="spaceGrid190"/>
+            </Border>
+            <Border x:Name="spaceBorder191" Grid.Row="12" Grid.Column="11">
+                <Grid x:Name="spaceGrid191"/>
+            </Border>
+            <Border x:Name="spaceBorder193" Grid.Row="12" Grid.Column="13">
+                <Grid x:Name="spaceGrid193"/>
+            </Border>
+            <Border x:Name="spaceBorder194" Grid.Row="12" Grid.Column="14">
+                <Grid x:Name="spaceGrid194"/>
+            </Border>
+            <Border x:Name="spaceBorder195" Grid.Row="13" Grid.Column="0">
+                <Grid x:Name="spaceGrid195"/>
+            </Border>
+            <Border x:Name="spaceBorder197" Grid.Row="13" Grid.Column="2">
+                <Grid x:Name="spaceGrid197"/>
+            </Border>
+            <Border x:Name="spaceBorder198" Grid.Row="13" Grid.Column="3">
+                <Grid x:Name="spaceGrid198"/>
+            </Border>
+            <Border x:Name="spaceBorder199" Grid.Row="13" Grid.Column="4">
+                <Grid x:Name="spaceGrid199"/>
+            </Border>
+            <Border x:Name="spaceBorder201" Grid.Row="13" Grid.Column="6">
+                <Grid x:Name="spaceGrid201"/>
+            </Border>
+            <Border x:Name="spaceBorder202" Grid.Row="13" Grid.Column="7">
+                <Grid x:Name="spaceGrid202"/>
+            </Border>
+            <Border x:Name="spaceBorder203" Grid.Row="13" Grid.Column="8">
+                <Grid x:Name="spaceGrid203"/>
+            </Border>
+            <Border x:Name="spaceBorder205" Grid.Row="13" Grid.Column="10">
+                <Grid x:Name="spaceGrid205"/>
+            </Border>
+            <Border x:Name="spaceBorder206" Grid.Row="13" Grid.Column="11">
+                <Grid x:Name="spaceGrid206"/>
+            </Border>
+            <Border x:Name="spaceBorder207" Grid.Row="13" Grid.Column="12">
+                <Grid x:Name="spaceGrid207"/>
+            </Border>
+            <Border x:Name="spaceBorder209" Grid.Row="13" Grid.Column="14">
+                <Grid x:Name="spaceGrid209"/>
+            </Border>
+            <Border x:Name="spaceBorder211" Grid.Row="14" Grid.Column="1">
+                <Grid x:Name="spaceGrid211"/>
+            </Border>
+            <Border x:Name="spaceBorder212" Grid.Row="14" Grid.Column="2">
+                <Grid x:Name="spaceGrid212"/>
+            </Border>
+            <Border x:Name="spaceBorder214" Grid.Row="14" Grid.Column="4">
+                <Grid x:Name="spaceGrid214"/>
+            </Border>
+            <Border x:Name="spaceBorder215" Grid.Row="14" Grid.Column="5">
+                <Grid x:Name="spaceGrid215"/>
+            </Border>
+            <Border x:Name="spaceBorder216" Grid.Row="14" Grid.Column="6">
+                <Grid x:Name="spaceGrid216"/>
+            </Border>
+            <Border x:Name="spaceBorder218" Grid.Row="14" Grid.Column="8">
+                <Grid x:Name="spaceGrid218"/>
+            </Border>
+            <Border x:Name="spaceBorder219" Grid.Row="14" Grid.Column="9">
+                <Grid x:Name="spaceGrid219"/>
+            </Border>
+            <Border x:Name="spaceBorder220" Grid.Row="14" Grid.Column="10">
+                <Grid x:Name="spaceGrid220"/>
+            </Border>
+            <Border x:Name="spaceBorder222" Grid.Row="14" Grid.Column="12">
+                <Grid x:Name="spaceGrid222"/>
+            </Border>
+            <Border x:Name="spaceBorder223" Grid.Row="14" Grid.Column="13">
+                <Grid x:Name="spaceGrid223"/>
+            </Border>
+        </Grid>
+        <Border x:Name="piece1Border"  BorderThickness="1" BorderBrush="Black">
+            <Grid x:Name="player1Pieces" Height="45" Width="315" VerticalAlignment="Bottom" Margin="0,15,100,15">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Resources/purty_wood.png"/>
+                </Grid.Background>
+                <Grid.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="BorderBrush" Value="Black" />
+                        <Setter Property="BorderThickness" Value="1" />
+                        <Setter Property="CornerRadius" Value="0" />
+                    </Style>
+                </Grid.Resources>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid x:Name="player1Tile1" Grid.Column="0" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player1Letter1Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player1Letter1" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player1Tile2" Grid.Column="1" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player1Letter2Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player1Letter2" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player1Tile3" Grid.Column="2" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player1Letter3Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player1Letter3" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player1Tile4" Grid.Column="3" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player1Letter4Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player1Letter4" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player1Tile5" Grid.Column="4" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player1Letter5Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player1Letter5" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player1Tile6" Grid.Column="5" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player1Letter6Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player1Letter6" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player1Tile7" Grid.Column="6" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player1Letter7Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player1Letter7" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+            </Grid>
+        </Border>
+        <Border x:Name="piece2Border"  BorderThickness="1" BorderBrush="Black">
+            <Grid x:Name="player2Pieces" Height="45" Width="315" VerticalAlignment="Top" Margin="0,15,100,15">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Resources/purty_wood.png"/>
+                </Grid.Background>
+                <Grid.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="BorderBrush" Value="Black" />
+                        <Setter Property="BorderThickness" Value="1" />
+                        <Setter Property="CornerRadius" Value="0" />
+                    </Style>
+                </Grid.Resources>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid x:Name="player2Tile1" Grid.Column="0" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player2Letter1Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player2Letter1" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player2Tile2" Grid.Column="1" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player2Letter2Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player2Letter2" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player2Tile3" Grid.Column="2" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player2Letter3Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player2Letter3" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player2Tile4" Grid.Column="3" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player2Letter4Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player2Letter4" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player2Tile5" Grid.Column="4" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player2Letter5Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player2Letter5" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player2Tile6" Grid.Column="5" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player2Letter6Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player2Letter6" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player2Tile7" Grid.Column="6" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player2Letter7Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player2Letter7" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+            </Grid>
+        </Border>
+        <Border x:Name="piece3Border"  BorderThickness="1" BorderBrush="Black">
+            <Grid x:Name="player3Pieces" Height="315" Width="45" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,0">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Resources/purty_wood.png"/>
+                </Grid.Background>
+                <Grid.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="BorderBrush" Value="Black" />
+                        <Setter Property="BorderThickness" Value="1" />
+                        <Setter Property="CornerRadius" Value="0" />
+                    </Style>
+                </Grid.Resources>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid x:Name="player3Tile1" Grid.Row="0" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player3Letter1Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player3Letter1" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player3Tile2" Grid.Row="1" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player3Letter2Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player3Letter2" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player3Tile3" Grid.Row="2" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player3Letter3Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player3Letter3" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player3Tile4" Grid.Row="3" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player3Letter4Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player3Letter4" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player3Tile5" Grid.Row="4" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player3Letter5Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player3Letter5" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player3Tile6" Grid.Row="5" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player3Letter6Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player3Letter6" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player3Tile7" Grid.Row="6" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player3Letter7Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player3Letter7" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+            </Grid>
+        </Border>
+        <Border x:Name="piece4Border"  BorderThickness="1" BorderBrush="Black">
+            <Grid x:Name="player4Pieces" Height="315" Width="45" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="15,0,115,0">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Resources/purty_wood.png"/>
+                </Grid.Background>
+                <Grid.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="BorderBrush" Value="Black" />
+                        <Setter Property="BorderThickness" Value="1" />
+                        <Setter Property="CornerRadius" Value="0" />
+                    </Style>
+                </Grid.Resources>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid x:Name="player4Tile1" Grid.Row="0" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player4Letter1Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player4Letter1" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player4Tile2" Grid.Row="1" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player4Letter2Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player4Letter2" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player4Tile3" Grid.Row="2" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player4Letter3Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player4Letter3" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player4Tile4" Grid.Row="3" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player4Letter4Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player4Letter4" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player4Tile5" Grid.Row="4" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player4Letter5Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player4Letter5" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player4Tile6" Grid.Row="5" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player4Letter6Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player4Letter6" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+                <Grid x:Name="player4Tile7" Grid.Row="6" MouseDown="ClickOnTile" MouseMove="MoveTile">
+                    <Label x:Name="player4Letter7Value" Content="" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" Background="#FFC9B171" Padding="5,20,5,5" HorizontalAlignment="Center" Visibility="Hidden" BorderThickness="1" BorderBrush="Black" Width="45"/>
+                    <Label x:Name="player4Letter7" Content="" FontSize="30" HorizontalContentAlignment="Center" Padding="0,0,10,3" Visibility="Hidden"/>
+                    <Grid.RenderTransform>
+                        <TranslateTransform/>
+                    </Grid.RenderTransform>
+                </Grid>
+            </Grid>
+        </Border>
+        <Grid x:Name="pickedUpTile" Height="45" Width="45" Visibility="Hidden" MouseDown="ClickOnTile" MouseMove="MoveTile">
+            <Grid.RenderTransform>
+                <TranslateTransform/>
+            </Grid.RenderTransform>
+        </Grid>
+        <Button x:Name="btnSubmitWord" Height="45" Width="100" HorizontalAlignment="Left" Margin="44,800,0,24" Click="BtnSubmitWordClick">Submit Word</Button>
+        <Button x:Name="btnSkipTurn" Height="45" Width="100" HorizontalAlignment="Left" Margin="174,800,0,24" Click="BtnSkipTurnClick">Skip Turn</Button>
+        <Button x:Name="btnResetTiles" Height="45" Width="100" HorizontalAlignment="Left" Margin="677,800,0,24" Click="BtnResetTilesClick">Reset Tiles</Button>
+        <Button x:Name="btnQuitGame" Height="45" Width="100" HorizontalAlignment="Left" Margin="817,800,0,24" Click="BtnQuitGameClick">Quit Game</Button>
+        <StackPanel Height="160" Width="140" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,30,40,0">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="Resources/purty_wood.png"/>
+            </StackPanel.Background>
+            <Label x:Name="player1Score" FontSize="20" Visibility="Collapsed" Content="Player 1: 0"/>
+            <Label x:Name="player2Score" FontSize="20" Visibility="Collapsed" Content="Player 2: 0"/>
+            <Label x:Name="player3Score" FontSize="20" Visibility="Collapsed" Content="Player 3: 0"/>
+            <Label x:Name="player4Score" FontSize="20" Visibility="Collapsed" Content="Player 4: 0"/>
+        </StackPanel>
+    </Grid>
+</Window>

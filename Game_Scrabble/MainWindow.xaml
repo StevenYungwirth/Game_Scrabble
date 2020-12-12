@@ -1,0 +1,24 @@
+﻿<Window x:Class="Game_Scrabble.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Game_Scrabble"
+        mc:Ignorable="d"
+        Title="Scrabble!" Height="425" Width="350" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btnStart" Content="Start!" HorizontalAlignment="Left" Margin="20,89,0,0" VerticalAlignment="Top" Width="300
+                " Height="50" FontSize="24" Click="BtnStart_Click"/>
+        <Label x:Name="lblTitleScreen" Content=" SCRABBLE!" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="48" Width="300" FontFamily="Segoe UI Black"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="20,309,0,0" VerticalAlignment="Top" Width="300" Height="50" FontSize="24" Click="BtnExit_Click"/>
+        <Button x:Name="btnCredits" Content="Credits" HorizontalAlignment="Left" Margin="20,254,0,0" VerticalAlignment="Top" Width="300" Height="50" FontSize="24" Click="BtnCredits_Click"/>
+        <Label x:Name="lblPlayers" HorizontalAlignment="Center" Margin="0,-60,0,0" VerticalAlignment="Center">Number of Players</Label>
+        <Label x:Name="lbl2" HorizontalAlignment="Center" Margin="0,65,188,0" VerticalAlignment="Center">2</Label>
+        <Label x:Name="lbl3" HorizontalAlignment="Center" Margin="0,65,0,0" VerticalAlignment="Center">3</Label>
+        <Label x:Name="lbl4" HorizontalAlignment="Center" Margin="0,65,-190,0" VerticalAlignment="Center">4</Label>
+        <Slider x:Name="playerCounter" Minimum="2" Maximum="4" IsSnapToTickEnabled="True" HorizontalAlignment="Center" Height="30" Width="200" TickPlacement="Both" SmallChange="1" Margin="10,182" HorizontalContentAlignment="Center"></Slider>
+    </Grid>
+</Window>

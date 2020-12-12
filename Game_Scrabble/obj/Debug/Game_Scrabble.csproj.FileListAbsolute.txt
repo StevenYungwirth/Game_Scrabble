@@ -1,0 +1,228 @@
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csprojAssemblyReference.cache
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.CoreCompileInputs.cache
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\NWTC\C# - 2\Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csprojAssemblyReference.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.g.cs
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.baml
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.CoreCompileInputs.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csprojAssemblyReference.cache
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.baml
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 10\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csprojAssemblyReference.cache
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.g.cs
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.baml
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.CoreCompileInputs.cache
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\NWTC\C# - 2\Scrabble\part3\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csprojAssemblyReference.cache
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.baml
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Game_Scrabble 2020-04-11\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csprojAssemblyReference.cache
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.g.cs
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.baml
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.CoreCompileInputs.cache
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\NWTC\C# - 2\Scrabble\part5\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.baml
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\bin\Debug\dictionary.txt
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_Content.g.cs
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\bin\Debug\dictionary.txt
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csprojAssemblyReference.cache
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.g.cs
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_Content.g.cs
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.baml
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.CoreCompileInputs.cache
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\Users\colef\Downloads\Game_Scrabble - BOrked\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\bin\Debug\dictionary.txt
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csprojAssemblyReference.cache
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.g.cs
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_Content.g.cs
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.baml
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.CoreCompileInputs.cache
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\Users\spybl\Downloads\Game_Scrabble - Borked and improved\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\dictionary.txt
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csprojAssemblyReference.cache
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_Content.g.cs
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.baml
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\Users\sbeyer\Documents\Spring 2020 Classes\C#\Class 12\Game_Scrabble(1)\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csprojAssemblyReference.cache
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.g.cs
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_Content.g.cs
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\dictionary.txt
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.baml
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\Users\spybl\Downloads\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.CoreCompileInputs.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\bin\Debug\dictionary.txt
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csprojAssemblyReference.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.g.cs
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_Content.g.cs
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.baml
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.CoreCompileInputs.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble 2020-04-29\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\dictionary.txt
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe.config
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.exe
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\bin\Debug\Game_Scrabble.pdb
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csprojAssemblyReference.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.g.cs
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.g.cs
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\App.g.cs
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_Content.g.cs
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble_MarkupCompile.lref
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\BoardWindow.baml
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\MainWindow.baml
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.g.resources
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.Properties.Resources.resources
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.GenerateResource.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.csproj.CoreCompileInputs.cache
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.exe
+C:\Users\spybl\Desktop\School\C#\Game_Scrabble\Game_Scrabble\Game_Scrabble\obj\Debug\Game_Scrabble.pdb
